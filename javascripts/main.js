@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
 	var explosives = [];
+		console.log("explosives", explosives);
 
 	function writeDom(){
-		console.log("explosives", explosives);
 		var domString = "";
 		for (var i = 0; i < explosives.length; i++) {
 			domString += `<h1>${explosives[i].type}</h1>`;
@@ -20,6 +20,7 @@ $(document).ready(function(){
 			}).fail(function(error1){
 				reject(error1);
 			});
+
 		});	
 	};
 
@@ -44,7 +45,7 @@ $(document).ready(function(){
 	};
 
 
-Promise.all([firstExplosivesJSON()])
+Promise.all([firstExplosivesJSON(), secondExplosiveJSON(), thirdExplosiveJSON()])
 	.then(function(results){
 		console.log("results", results);
 		results.forEach(function(ajaxCalls){
