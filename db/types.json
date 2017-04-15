@@ -2,37 +2,37 @@
     "types": [
         {
             "id": 0,
-            "category": 0,
+            "category": "Fireworks",
             "name": "sparkles",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 1,
-            "category": 0,
+            "category": "Fireworks",
             "name": "sprinkles",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 2,
-            "category": 0,
+            "category": "Fireworks",
             "name": "floater",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 3,
-            "category": 1,
+            "category": "Demolition",
             "name": "glider",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 4,
-            "category": 1,
+            "category": "Demolition",
             "name": "flyer",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 5,
-            "category": 1,
+            "category": "Demolition",
             "name": "shooter",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         }

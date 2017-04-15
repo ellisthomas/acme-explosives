@@ -1,12 +1,14 @@
 $(document).ready(function(){
 
 	var explosives = [];
-		console.log("explosives", explosives);
-
+		
 	function writeDom(){
 		var domString = "";
 		for (var i = 0; i < explosives.length; i++) {
-			domString += `<h1>${explosives[i].type}</h1>`;
+			// domString += `<div class="col-md-6 col-md-4">`;
+			// domString += `<div class="thumbnail">`;
+			domString += `<h1>${explosives[i].name}</h1>`;
+			// domString += `</div></div>`;
 		}
 		$("#promises").append(domString);
 	}
@@ -54,9 +56,8 @@ Promise.all([firstExplosivesJSON(), secondExplosiveJSON(), thirdExplosiveJSON()]
 			})
 		})
 			writeDom();
-	});
-
-
+	})
+	
 
 
 
