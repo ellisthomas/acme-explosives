@@ -5,16 +5,32 @@ $(document).ready(function(){
 	function writeDom(){
 		var domString = "";
 		for (var i = 0; i < explosives.length; i++) {
-			// domString += `<div class="col-md-6 col-md-4">`;
-			// domString += `<div class="thumbnail">`;
+			domString += `<div class="col-md-6 col-md-4">`;
+			domString += `<div class="thumbnail">`;
 			domString += `<h1>${explosives[i].name}</h1>`;
-			// domString += `</div></div>`;
+			domString += `</div></div>`;
+
 		}
+
+			for (var i = 0; i < explosives.length; i++) {
+				if (explosives[i].name !== undefined && explosives[i].category === undefined) {
+					$(".dropdown-menu").append(`<li><a href="#">${explosives[i].name}</a></li>`);
+				}
+			};
+			
+			$(".dropdown-menu").on("click", function(){
+				alert("hello");
+			})
+
+		$.each(explosives, function(index, value){
+			$.each(value, function(index2, value2){
+			})// something here
+
+		});
 		$("#promises").append(domString);
 	}
-
+	 
 		
-
 	var firstExplosivesJSON = function() {
 		return new Promise(function(resolve, reject) {
 			$.ajax("./db/categories.json").done(function(data1){
@@ -49,7 +65,7 @@ $(document).ready(function(){
 
 Promise.all([firstExplosivesJSON(), secondExplosiveJSON(), thirdExplosiveJSON()])
 	.then(function(results){
-		console.log("results", results);
+		// console.log("results", results);
 		results.forEach(function(ajaxCalls){
 			ajaxCalls.forEach(function(boom){
 				explosives.push(boom);

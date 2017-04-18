@@ -6,91 +6,91 @@
             "name": "Fairy Sparklers",
             "description": "Multi-colored sparklers that are safe for any age."
         },
-        "fairy_sparklers": {
+        "bang": {
             "id": 1,
             "type": 0,
             "name": "Air Bomb",
             "description": "Any shell effect launched from a firework that bangs, normally loudly."
         },
-        "fairy_sparklers": {
+        "boomer": {
             "id": 2,
             "type": 0,
             "name": "Bang ",
             "description": "What most fireworks do"
         },
-        "fairy_sparklers": {
+        "clappers": {
             "id": 3,
             "type": 1,
             "name": "Blockbuster",
             "description": "A popular and long-running shell effect candle by Vulcan which became the standard against which most 28-30mm candles have been judged in the noughties"
         },
-        "fairy_sparklers": {
+        "sound_makers": {
             "id": 4,
             "type": 1,
             "name": "Cake",
             "description": "A multi-shot firework in which the effects or shells are placed in tubes so they are aligned in a horizontal plane."
         },
-        "fairy_sparklers": {
+        "noise-makers": {
             "id": 5,
             "type": 1,
             "name": "Cherry Bomb",
             "description": "The American equivalent of our old garden banger, shaped like a cherry."
         },
-        "fairy_sparklers": {
+        "pow": {
             "id": 6,
             "type": 2,
             "name": "DIY Kit",
             "description": "A kit (sold normally by mail order) comprising of numerous loose items to make a complete display."
         },
-        "fairy_sparklers": {
+        "rocket": {
             "id": 7,
             "type": 2,
             "name": "Ember",
             "description": "A burning piece of casing or paper from a firework"
         },
-        "fairy_sparklers": {
+        "launcher": {
             "id": 8,
             "type": 2,
             "name": "Indoor Firework",
             "description": "A small firework which can be safely lit indoors."
         },
-        "fairy_sparklers": {
+        "Foot loose": {
             "id": 9,
             "type": 3,
             "name": "Loose Items",
             "description": " In firework catalogues, single fireworks not part of a larger pack or kit."
         },
-        "fairy_sparklers": {
+        "screamers": {
             "id": 10,
             "type": 3,
             "name": "Mulit-shot",
             "description": "A firework that has more than one shot."
         },
-        "fairy_sparklers": {
+        "poppers": {
             "id": 11,
             "type": 3,
             "name": "Rocket",
             "description": "A firework that takes off and displays its effect in the air."
         },
-        "fairy_sparklers": {
+        "fire_shell": {
             "id": 12,
             "type": 4,
             "name": "Shell",
             "description": "An effect ejected from a firework typically into the air where it “breaks” into an effect. "
         },
-        "fairy_sparklers": {
+        "Thunderbush": {
             "id": 13,
             "type": 4,
             "name": "Thunderflash",
             "description": "A pyrotechnic device that, once activated, explodes with a loud bang and a flash. Used in theatrics, combat training or battle simulations."
         },
-        "fairy_sparklers": {
+        "Cake": {
             "id": 14,
             "type": 4,
             "name": "X Cake",
             "description": "Cross-firing fan cake"
         },
-        "fairy_sparklers": {
+        "GumPowder": {
             "id": 15,
             "type": 4,
             "name": "Yaccy Gum",
