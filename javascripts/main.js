@@ -17,8 +17,9 @@ $(document).ready(function(){
 					$(".dropdown-menu").append(`<li><a href="#">${explosives[i].name}</a></li>`);
 				}
 			};
-			
+
 			$(".dropdown-menu").on("click", function(){
+				
 				alert("hello");
 			})
 
